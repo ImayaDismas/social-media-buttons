@@ -97,3 +97,32 @@ border: 0;
 box-shadow: 0;
 display: inline;
 }
+
+.social {
+    margin-top: 50px;
+}
+
+.social a {
+    margin: 10px;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background: no-repeat;
+    border-radius: 50%;
+    background-size: contain;
+    transition: all .2s ease-in;
+}
+
+.social a:hover {
+    background-color: #fff;
+    border: 5px solid #fff;
+}
+
+.social.gray a:hover {
+    background-color: #7afbc4;
+    border: 5px solid #7afbc4;
+}
+
+.social.gray{
+margin-top: 20px;
+}
